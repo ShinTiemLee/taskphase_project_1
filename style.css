@@ -20,7 +20,7 @@ body{
     box-shadow: 12px 8px 10px 10px black;
     border-style: solid;
     border-width: 0.08cm;
-    animation: second 2s;
+    animation: second 1.2s;
     animation-iteration-count: 1;
     
 }
@@ -36,7 +36,7 @@ div.signup{background:rgba(97, 5, 28, 0.822);
     box-shadow: 12px 8px 10px 10px black;
     border-style: solid;
     border-width: 0.08cm;
-    animation: second 2s;
+    animation: second 1.2s;
     animation-iteration-count: 1;
    
 
