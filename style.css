@@ -5,6 +5,9 @@ body{
     background-image: url('space.jpg');animation: first 2s;
     animation-iteration-count: 1;
     width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
     
     
 
@@ -17,6 +20,7 @@ body{
     width: 35vw;
     height: 40vw;
     margin-left: 33vw;
+    margin-right: 33vw;
     border-radius: 5vw;
     border-color: azure;
     box-shadow: 5vw 5vw 5vw 5vw black;
@@ -33,6 +37,7 @@ div.signup{background:rgba(97, 5, 28, 0.822);
     width: 35vw;
     height: 63vw;
     margin-left: 33vw;
+    margin-right: 33vw;
     border-radius: 5vw;
     border-color: azure;
     box-shadow: 12px 8px 10px 10px black;
