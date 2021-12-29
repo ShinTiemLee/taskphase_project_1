@@ -4,7 +4,11 @@ body{
     background-size: cover;
     background-image: url('space.jpg');animation: first 2s;
     animation-iteration-count: 1;
-    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
     
 
     }
@@ -13,13 +17,13 @@ body{
        div.main{background:rgba(97, 5, 28, 0.822);
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    width: 35vw;
-    height: 40vw;
+    width: 33%;
+    height: 45%;
     margin-left: 33vw;
     margin-right: 33vw;
     border-radius: 5vw;
     border-color: azure;
-    box-shadow: 5vw 5vw 5vw 5vw black;
+    box-shadow: 2vw 2vw 2vw 2vw black;
     border-style: solid;
     border-width: 0.5vw;
     animation: second 1.2s;
@@ -30,13 +34,13 @@ body{
 div.signup{background:rgba(97, 5, 28, 0.822);
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    width: 35vw;
-    height: 63vw;
+    width: 33%; 
+    height: 65%;
     margin-left: 33vw;
     margin-right: 33vw;
     border-radius: 5vw;
     border-color: azure;
-    box-shadow: 12px 8px 10px 10px black;
+    box-shadow: 2vw 2vw 2vw 2vw black;
     border-style: solid;
     border-width: 0.5vw;
     animation: second 1.2s;
@@ -103,4 +107,7 @@ button:hover{border-color: seashell;
 }
 
 
-
+input
+{width: 75%%;
+ height: 8%;
+}
